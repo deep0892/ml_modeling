@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+                <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Виртуальный Pусский музей</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=.7">-->
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Виртуальный Pусский музей" />
+        <meta property="og:description" content="Портал объединяет новейшие проекты Русского музея в области информационных технологий: проект "Русский музей: виртуальный филиал", Центр мультимедиа Русского музея, Онлайн-лекторий, представление коллекции Русского музея онлайн." />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="" />
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta name ="keywords" content="Русский музей, виртуальный филиал, Виртуальный Русский музей, мультимедиа, музей, коллекция, онлайн, лекции, онлайн-лекции, музейный, выставка, международный"/><meta name ="description" content="Портал объединяет новейшие проекты Русского музея в области информационных технологий: проект "Русский музей: виртуальный филиал", Центр мультимедиа Русского музея, Онлайн-лекторий, представление коллекции Русского музея онлайн."/>        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Виртуальный Pусский музей">
+        <meta name="twitter:image" content="">
+
+        <script src="/js/vendor/modernizr.custom.js"></script>
+        <!--[if lte IE 9]>
+        <script type="text/javascript" src="/js/vendor/html5shiv.js"></script>
+        <script type="text/javascript" src="/js/vendor/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <div class="chromeframe">
+            <p>
+                Вы используете <strong>устаревший</strong> браузер. <br/>
+                Пожалуйста, <a href="http://browsehappy.com/" target="_blank">обновите его</a>.
+            </p>
+        </div>
+        <![endif]-->
+
+        <header>
+            <nav class="header__nav">
+   <div class="container">
+       <div class="row">
+            <div class="brand col-xs-3">
+                <a class="logo" href="/index.php"><img src="/inc/390_logo_ru.png" alt=""/></a>
+            </div>
+           <div class="nav col-xs-9">
+               <ul class="nav__list">
+                    <li id="menu1" class="fake"></li>
+                                            <li id="menu393">
+                            <a href="/news/index.php">
+                                Новости                            </a>
+
+                                            </li>
+                                            <li id="menu396">
+                            <a href="/virtual_offices/index.php">
+                                Виртуальные филиалы                            </a>
+
+                                           <div class="nav__inner">
+                           <div class="nav__inner__bg inner__number_2"></div>
+                           <ul>
+                                                            <li id="submenu411">
+                                    <a href="/virtual_offices/map/index.php">
+                                        Карта филиалов                                    </a>
+                                </li>
+                                                            <li id="submenu412">
+                                    <a href="/virtual_offices/media/index.php">
+                                        Медиатека                                    </a>
+                                </li>
+                                                            <li id="submenu414">
+                                    <a href="/virtual_offices/seminars/index.php">
+                                        Семинары и конференции                                    </a>
+                                </li>
+                                                            <li id="submenu416">
+                                    <a href="/virtual_offices/contest/index.php">
+                                        Конкурсы                                    </a>
+                                </li>
+                                                            <li id="submenu417">
+                                    <a href="/virtual_offices/walking_city/index.php">
+                                        Прогулки с виртуальными филиалами                                    </a>
+                                </li>
+                                                            <li id="submenu413">
+                                    <a href="/virtual_offices/lk/">
+                                        Сотрудникам филиалов                                    </a>
+                                </li>
+                                                       </ul>
+                       </div>                        
+                                            </li>
+                                            <li id="menu397">
+                            <a href="/online_resources/index.php">
+                                Онлайн ресурсы                            </a>
+
+                                           <div class="nav__inner">
+                           <div class="nav__inner__bg inner__number_3"></div>
+                           <ul>
+                                                            <li id="submenu386">
+                                    <a href="/collections/index.php">
+                                        Коллекция                                    </a>
+                                </li>
+                                                            <li id="submenu399">
+                                    <a href="/online_resources/art_gallery/index.php">
+                                        Художественная галерея                                    </a>
+                                </li>
+                                                            <li id="submenu400">
+                                    <a href="/online_resources/previews/index.php">
+                                        Вернисажи                                    </a>
+                                </li>
+                                                            <li id="submenu5095">
+                                    <a href="/online_resources/lections/index.php">
+                                        Онлайн-лекции                                    </a>
+                                </li>
+                                                            <li id="submenu402">
+                                    <a href="/online_resources/e-course/index.php">
+                                        Электронный курс                                    </a>
+                                </li>
+                                                            <li id="submenu403">
+                                    <a href="/online_resources/komp/index.php">
+                                        КОМП                                    </a>
+                                </li>
+                                                            <li id="submenu404">
+                                    <a href="/online_resources/helpful_links/index.php">
+                                        Полезные ссылки                                    </a>
+                                </li>
+                                                            <li id="submenu10517">
+                                    <a href="/online_resources/virtual_tours/index.php">
+                                        Виртуальные туры                                    </a>
+                                </li>
+                                                       </ul>
+                       </div>                        
+                                            </li>
+                                            <li id="menu398">
+                            <a href="/projects/index.php">
+                                Проекты                            </a>
+
+                                           <div class="nav__inner">
+                           <div class="nav__inner__bg inner__number_4"></div>
+                           <ul>
+                                                            <li id="submenu4576">
+                                    <a href="/projects/centr_multimedia/index.php">
+                                        Центр мультимедиа                                    </a>
+                                </li>
+                                                            <li id="submenu407">
+                                    <a href="/projects/augmented_reality/index.php">
+                                        Дополненная реальность                                    </a>
+                                </li>
+                                                            <li id="submenu408">
+                                    <a href="/projects/saga_dinasty/index.php">
+                                        Сага о династии                                    </a>
+                                </li>
+                                                            <li id="submenu409">
+                                    <a href="/projects/google/index.php">
+                                        Google Arts & Culture                                    </a>
+                                </li>
+                                                            <li id="submenu686">
+                                    <a href="/projects/mobile_app/index.php">
+                                        Мобильные приложения                                    </a>
+                                </li>
+                                                       </ul>
+                       </div>                        
+                                            </li>
+                                            <li id="menu395">
+                            <a href="/contacts/index.php">
+                                Контакты                            </a>
+
+                                            </li>
+                                   </ul>
+               
+               <div class="header__actions-block">
+                   <div class="lang">
+                       <a id="ru" href="/?lang=ru">Ru</a>
+                       /
+                       <a id="en" href="/?lang=en">En</a>
+                   </div>
+                   <form class="search-form" action="/search/index1.php" method="GET">
+                       <input type="hidden" name="lang" value="ru">
+                       <button type="submit" class="btn btn-violet btn-search"><i class="v-icon-search"></i></button>
+                       <input type="text" name="sea_val" class="input-search form-control" value=""/>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+</nav>
+            <section class="main-slider"> <div class="container"><div class="royalSlider"><div class="slide"><A href="/data/events/2018/05/knyaz_oleg/index.php"><img class="rsImg" src="/data/events/2018/05/knyaz_oleg/10519_img.png" width="981" height="375" alt="Князь Олег. Не хочу умереть без славы" title="Князь Олег. Не хочу умереть без славы" /></a></div><div class="slide"><A href="/data/events/2018/05/ekaterina_velikaya_v_strane_i_mire._vstrecha_s_kuratorom/index.php"><img class="rsImg" src="/data/events/2018/05/ekaterina_velikaya_v_strane_i_mire._vstrecha_s_kuratorom/10516_img.png" width="981" height="375" alt="Екатерина Великая в стране и мире. Встреча с куратором" title="Екатерина Великая в стране и мире. Встреча с куратором" /></a></div><div class="slide"><A href="/data/events/2018/02/obschee._vistavka_ekaterina_velikaya_v_strane_i_mire/index.php"><img class="rsImg" src="/data/events/2018/02/obschee._vistavka_ekaterina_velikaya_v_strane_i_mire/9424_img_ru.png" width="981" height="375" alt="Выставка &quot;Екатерина Великая в стране и мире&quot;" title="Выставка &quot;Екатерина Великая в стране и мире&quot;" /></a></div><div class="slide"><A href="/data/events/2017/12/minkulturi_rossii_i_russkiy_muzey_rasskazhut_kak_sozdavat_gidi_dopolnennoy_realnosti_dlya_ek/index.php"><img class="rsImg" src="/data/events/2017/12/minkulturi_rossii_i_russkiy_muzey_rasskazhut_kak_sozdavat_gidi_dopolnennoy_realnosti_dlya_ek/8840_img_ru.png" width="981" height="375" alt="Министерство культуры России и Русский музей – о создании гидов дополненной реальности" title="Министерство культуры России и Русский музей – о создании гидов дополненной реальности" /></a></div><div class="slide"><A href="http://rusmuseumvrm.ru/projects/multimedia/rezhim_raboti_centra/index.php"><img class="rsImg" src="/inc/mainblocks/media/6368_img_ru.png" width="981" height="375" alt="Посетите Центр мультимедиа Русского музея" title="Посетите Центр мультимедиа Русского музея" /></a></div><div class="slide"><A href="http://rusmuseumvrm.ru/virtual_offices/index.php"><img class="rsImg" src="/inc/mainblocks/media/3974_img_ru.png" width="981" height="375" alt="Проект &quot;Русский музей: виртуальный филиал&quot;" title="Проект &quot;Русский музей: виртуальный филиал&quot;" /></a></div><div class="slide"><A href="http://project687637.tilda.ws/" target="_blank" ><img class="rsImg" src="/inc/mainblocks/media/konferenciya_chelovek_igrayuschiy_voshel_v_muzey/10548_img_ru.png" width="981" height="375" alt="Конференция &quot;Человек играющий вошел в музей&quot;" title="Конференция &quot;Человек играющий вошел в музей&quot;" /></a></div></div></div></section>        </header>
+
+        <article class="main-page page-content">
+            <section class="main-page__about">
+                <div class="container">
+                    <div class="about-content__left">
+                        <p class="lead">Портал &laquo;Виртуальный Русский музей&raquo; призван объединить новейшие проекты <a href="http://www.rusmuseum.ru/" target="_blank">Русского музея</a> в области информационных технологий.</p>
+<p>Портал позволяет получить доступ к коллекции Русского музея, совершить прогулку по залам музея, посетить реальные и виртуальные выставки, а также познакомиться с инновационными проектами музея: <a href="/projects/centr_multimedia/index.php"> Центром мультимедиа</a> в Западной кордегардии Михайловского замка, <a href="/projects/Online_lectures/index.php">online-лекторием</a>, проектом для мобильных устройств &laquo;<a href="/projects/augmented_reality/index.php">Дополненная реальность</a>&raquo; и мобильными приложениями, проектом преобразования Михайловского замка &laquo;<a href="/projects/saga_dinasty/index.php">Театр российской истории. Дом Романовых &mdash; факты, мифы и легенды. Сага о Династии</a>&raquo;.</p>
+<p class="lead">Основной частью Портала является проект &laquo;Русский музей: виртуальный филиал&raquo; &mdash; международный проект, который реализуется с 2003 года и воплощает идею доступности крупнейшей коллекции русского искусства путем создания информационно-образовательных центров в России и за рубежом.</p>
+<p>Среди участников проекта &mdash; музеи, учебные заведения, учреждения культуры, науки и дополнительного образования.</p>
+<p class="lead big">Приятного путешествия!</p>                    </div>
+
+                    <div class="about-content__right">
+                        <div class="row">
+                                                        <div class="preview-box box col-xs-6">
+                                                                <a href="/collections/index.php">
+                                                                    <div class="box__image"><img src="/site/1_menu_image1.jpg" alt=""/></div>
+                                    <div class="box__title"><i class="v-icon-arrow-right"></i>Коллекция</div>
+                                </a>
+                            </div>
+                                                        <div class="preview-box box col-xs-6">
+                                                                <a href="http://virtual.rusmuseumvrm.ru/" target="_blank">
+                                                                    <div class="box__image"><img src="/site/1_menu_image2.jpg" alt=""/></div>
+                                    <div class="box__title"><i class="v-icon-arrow-right"></i>Виртуальный тур</div>
+                                </a>
+                            </div>
+                                                        <div class="preview-box box col-xs-6">
+                                                                <a href="/online_resources/lections/index.php#anonce_lection">
+                                                                    <div class="box__image"><img src="/1_menu_image3.jpg" alt=""/></div>
+                                    <div class="box__title"><i class="v-icon-arrow-right"></i>Онлайн-лекции</div>
+                                </a>
+                            </div>
+                                                        <div class="preview-box box col-xs-6">
+                                                                <a href="/projects/multimedia/rezhim_raboti_centra/index.php">
+                                                                    <div class="box__image"><img src="/1_menu_image4.jpg" alt=""/></div>
+                                    <div class="box__title"><i class="v-icon-arrow-right"></i>Техно-игровой маршрут</div>
+                                </a>
+                            </div>
+                                                        <div class="calendar-box box col-xs-6">
+                                <div class="box-inner calendar__main">
+                                    <div id="calendar" class="calendar_main"></div>
+                                    <span class="muted">Выберите дату, чтобы ознакомиться с мероприятиями в этот день</span>
+                                </div>
+                            </div>
+
+                            <div class="main-site-box box col-xs-6">
+                                <a  href="http://rusmuseum.ru/" target="_blank" 
+                                    style="background: url('/1_foto_grm_ru.jpg') no-repeat center;">
+
+                                    <span class="main-site__link">http://rusmuseum.ru/</span>
+                                    <span class="muted text-violet">Приглашаем посетить основной сайт Государственного Русского Музея</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="main-page__news bg-skew">
+                <div class="container">
+                    <h3><a style="text-decoration:none;" href="/news/index.php#slide-1">Новости и события службы «Виртуальный Русский музей»</a></h3>
+                    <div id="news-carousel" class="news-list row">
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/obschee._mezhdunarodniy_seminar-trening_russkiy_muzey_ot_virtualnogo_k_realnomu._25-29_iyunya_2018/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/obschee._mezhdunarodniy_seminar-trening_russkiy_muzey_ot_virtualnogo_k_realnomu._25-29_iyunya_2018/10258_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>25.06.2018 &ndash; 29.06.2018</span>                                        <p class="title">Международный семинар-тренинг «Русский музей: от виртуального к реальному»</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/knyaz_oleg/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/knyaz_oleg/10519_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>25.05.2018</span>                                        <p class="title">Князь Олег. Не хочу умереть без славы</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/ekaterina_velikaya_v_strane_i_mire._vstrecha_s_kuratorom/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/ekaterina_velikaya_v_strane_i_mire._vstrecha_s_kuratorom/10516_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>24.05.2018</span>                                        <p class="title">Екатерина Великая в стране и мире. Встреча с куратором</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/russkiy_muzey_i_voyna/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/russkiy_muzey_i_voyna/10510_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>21.05.2018</span>                                        <p class="title">Русский музей и война: уникальные кадры и хроника</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/evakuacionniy_roman._noch_muzeev_v_centre_multimedia/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/evakuacionniy_roman._noch_muzeev_v_centre_multimedia/10370_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>19.05.2018</span>                                        <p class="title">Эвакуационный роман. Ночь музеев в Центре мультимедиа Русского музея</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/volgograd_russkiy_muzey/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/volgograd_russkiy_muzey/10295_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>17.05.2018</span>                                        <p class="title">Волгоград встречает Русский музей!</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/05/burlaki_na_kame._otkritiy_pokaz_filma_ob_evakuacii_kartin_russkogo_muzeya_vo_vremya_blokadi_v_perm/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/05/burlaki_na_kame._otkritiy_pokaz_filma_ob_evakuacii_kartin_russkogo_muzeya_vo_vremya_blokadi_v_perm/10286_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>10.05.2018</span>                                        <p class="title">Бурлаки на Каме. Открытый показ фильмов об эвакуации в Пермь Русского музея и Мариинского театра во время блокады </p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/04/telemost_leningrad_-_molotovskaya_oblast/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/04/telemost_leningrad_-_molotovskaya_oblast/10167_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>27.04.2018</span>                                        <p class="title">Страна - блокадному Ленинграду. Пермь.</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/04/obschee._otkritie_virtualnogo_filiala_v_poselke_solnechniy/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/04/obschee._otkritie_virtualnogo_filiala_v_poselke_solnechniy/10051_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>25.04.2018</span>                                        <p class="title">Открытие третьего виртуального филиала Русского музея в Тверской области</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/04/obschee._sport_v_sovetskom_farfore_grafike_skulpture/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/04/obschee._sport_v_sovetskom_farfore_grafike_skulpture/10178_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>25.04.2018 &ndash; 30.07.2018</span>                                        <p class="title">Выставка «Спорт в советском фарфоре, графике, скульптуре»</p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/04/lekciya_rezhissura_kak_prakticheskaya_psihologiya_/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/04/lekciya_rezhissura_kak_prakticheskaya_psihologiya_/9888_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>20.04.2018</span>                                        <p class="title">Лекция «Режиссура как практическая психология» </p>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="news-list__item col-xs-3">
+                                <a href="/data/events/2018/04/obschee._akciya_katalogi_rm/index.php">
+                                    <div class="news-item__image box">
+                                        <img src="/data/events/2018/04/obschee._akciya_katalogi_rm/10049_circimg.jpg" alt=""/>
+                                    </div>
+                                    <div class="news-item__desc">
+                                        <span class='date'>20.04.2018 &ndash; 21.04.2018</span>                                        <p class="title">Акция "Каталоги Русского музея"</p>
+                                    </div>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+                
+            </section>
+
+            <section class="main-page__other bg-skew">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h3><a style="text-decoration:none;" href="/news/index.php#slide-2">
+                                    События виртуальных филиалов</a></h3>
+                            <ul class="events-list">
+
+                                                        <li>
+                                    <i>
+                                        15.11.2018 &ndash; 17.11.2018. Санкт-Петербург (Академия художеств)                                    </i>
+                                    <a href="/data/events/2018/11/iii_mezhdunarodnaya_nauchno_prakticheskaya_konferenciya_sohranenie_kulturnogo_na/index.php">
+                                        III Международная научно-практическая конференция "Сохранение культурного наследия. Исследования и реставрация".                                    </a>
+                                </li>
+                                                            <li>
+                                    <i>
+                                        04.06.2018. Новокуйбышевск                                    </i>
+                                    <a href="/data/events/2018/06/interaktivnoe_obrazovatelnoe_zanyatie_lipyagi_tchk_chrezvichaynoe_poruchenie_tch/index.php">
+                                        Интерактивное образовательное занятие «Липяги тчк Чрезвычайное поручение тчк Реввоенкомат»                                    </a>
+                                </li>
+                                                            <li>
+                                    <i>
+                                        01.06.2018. Петрозаводск (музей)                                    </i>
+                                    <a href="/data/events/2018/06/letniy_kultpohod/index.php">
+                                        «Летний культпоход»                                    </a>
+                                </li>
+                                                            <li>
+                                    <i>
+                                        01.06.2018. Новокуйбышевск                                    </i>
+                                    <a href="/data/events/2018/06/interaktivnoe_meropriyatie_tayna_ischeznuvshey_peshki/index.php">
+                                        Интерактивное мероприятие «Тайна исчезнувшей пешки»                                    </a>
+                                </li>
+                                                            <!--li><i>18.11.2014 — 17.04.2015. Санкт-Петербург</i> <a href="">Игра "Загадки Русского музея" </a></li>
+                                <li><i>15.10.2014 — 28.02.2015. Москва — Санкт-Петербург</i> <a href="">Дом Гоголя (Москва) и библиотека Гоголя (СПб) приглашают учащихся и педагогов принять участие в конкурсе "Поговорим о Гоголе" </a></li>
+                                <li><i>30.01.2014 и 06.02.2015. Турку (Финляндия)</i> <a href="">Исторические личности Финляндии в произведении И.Е. Репина «Торжественное заседание Государственного Совета 7 мая 1901 года»</a></li-->
+                            </ul>
+                            <form method=get action="/subscribe/index.php">
+                             <button type="submit" class="btn btn-violet btn-skew">Подписаться на новости</button>
+                            </form>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <h3><a name="social media" style="text-decoration: none">Виртуальный Русский музей в социальных сетях</a></h3>
+                                <!DOCTYPE html>
+
+
+<ul class="social-list ">
+            <li><a href="https://www.facebook.com/virtualrm" target="_blank"><i class="v-icon-fb"></i></a></li>
+                <li><a href="https://instagram.com/virtualrm/" target="_blank"><i class="v-icon-inst"></i></a></li>
+                <li><a href="https://vk.com/virtualrm" target="_blank"><i class="v-icon-vk"></i></a></li>
+                <li><a href="https://www.youtube.com/user/RMVBDepartment" target="_blank"><i class="v-icon-yt"></i></a></li>
+                    <li><a href="https://ok.ru/group/58224022847540" target="_blank"><i class="v-icon-od"></i></a></li>
+    </ul>                            <h3>Вход в Личный кабинет<br> для сотрудников виртуальных филиалов</h3>
+                            <form class="login-form" method="POST" action="/cms_lk/pu_auth.php">
+                                <div class="row">
+                                    <div class="col-xs-7">
+                                        <div class="form-group">
+                                            <label for="login" class="control-label">
+                                                Логин                                            </label>
+                                            <input type="text" class="form-control" id="login" name="login"/>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-xs-7">
+                                        <div class="form-group">
+                                            <label for="pass" class="control-label">
+                                                Пароль                                            </label>
+                                            <input type="password" class="form-control" id="passwd" name="passwd"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <div class="form-group submit-group">
+                                            <label class="control-label btn-block">&nbsp;</label>
+                                            <button type="submit" class="btn btn-violet btn-skew">
+                                                Войти                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__partners">
+    <div class="container"><hr/></div>
+    <div class="container">
+        <div class="row">
+            <ul class="partners-list ">
+                <li><a href='http://www.sistema.ru/' target='_blank'><img src='/inc/392_sponsor1_pic_ru.jpg' alt='АФК «Система»'/></a></li><li><a href='http://www.mts.ru' target='_blank'><img src='/inc/392_sponsor2_pic_ru.jpg' alt='МТС'/></a></li><li><a href='http://www.bf.sistema.ru/' target='_blank'><img src='/inc/392_sponsor3_pic_ru.jpg' alt='БФ «Система»'/></a></li>            </ul>
+                    </div>
+    </div>
+</section>        </article>
+
+        <footer>
+    <div class="footer__top">
+        <div class="container">
+            <nav class="footer__nav">
+                <ul class="nav__list">
+                                        <li>
+                        <a href="/about_project/index.php">
+                            О проекте                        </a>
+                    </li>
+                                        <li>
+                        <a href="/site_map/index.php">
+                            Карта сайта                        </a>
+                    </li>
+                                        <li>
+                        <a href="/contacts/index.php">
+                            Контакты                        </a>
+                    </li>
+                                        <li>
+                        <a href="/Feedback/index.php">
+                            Обратная связь                        </a>
+                    </li>
+                                        <li>
+                        <a href="/press/index.php">
+                            Пресса о нас                        </a>
+                    </li>
+                                    </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer__bottom bg-skew">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>&copy;&nbsp;Некоммерческое партнерство&nbsp;&laquo;Виртуальный Русский музей&raquo;</p>
+<p>&nbsp;&nbsp;&nbsp; 191186, Санкт-Петербург,&nbsp;Инженерная ул., 8</p>
+<p>&nbsp;&nbsp;&nbsp; Тел.: +7 (812) 347-87-05</p>
+<p>&nbsp;</p>
+<p><span style="color: #c93858;"><strong>Старый портал проекта -&nbsp;<a href="http://virtualrm.spb.ru/" target="_blank">http://virtualrm.spb.ru</a></strong> (до 1.04.2016)</span></p>                </div>
+                <div class="col-xs-4">
+                    <p>&copy; Русский музей</p>
+<p>&nbsp;&nbsp;&nbsp; Дизайн и разработка &ndash; &laquo;Музей Плюс&raquo;</p>
+<p>&nbsp; &nbsp; Контент&nbsp;&ndash;&nbsp;&laquo;Виртуальный Русский музей&raquo;</p>                </div>
+                <div class="col-xs-2 nopadding">
+                    <a href="/terms/index.php">Условия использования материалов</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <script src="/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/vendor/fastclick.min.js"></script>
+<script src="/js/vendor/jquery.calendarlite.js"></script>
+<script src="/js/vendor/jquery.royalslider.min.js"></script>
+<script src="/js/vendor/slick.min.js"></script>
+<script src="/js/vendor/jquery.fancybox.pack.js"></script>
+<script src="/js/functions.js"></script>
+
+
+<script>
+    $("#ru").addClass('active');
+    if($("li").is("#menu1")) {
+        $("#menu1").addClass('active');
+    } else {
+        $("#menu1").addClass('active');
+    }
+</script>
+
+<script type="text/javascript">
+    $('.subscribe-form').on('submit', function(e) {
+        e.preventDefault();
+        var email = $('.subscribe-form [name="email"]').val();
+        var page  = location.href;
+        var lang = 'ru';
+        $.ajax({
+            type: "POST",
+            url: "http://rusmuseumvrm.ru/inc/subscribe.php",
+            dataType: "html",
+            data: "email="+email+"&page="+page
+        }).done(function(data) {
+            alert(data);
+        }).fail(function(data) {
+            error['en'] = 'Sending error';
+            error['ru'] = 'Ошибка отправки';
+            alert(error[lang]);
+        });
+    });
+</script>
+
+<script language="JavaScript">
+if (window.location.href.indexOf('/search/index.php') == -1) {
+jQuery.fn.highlight = function(pat) {
+ function innerHighlight(node, pat) {
+  var skip = 0;
+  if (node.nodeType == 3) {
+   var pos = node.data.toUpperCase().indexOf(pat);
+   if (pos >= 0) {
+    var spannode = document.createElement('span');
+    spannode.className = 'highlight';
+    var middlebit = node.splitText(pos);
+    var endbit = middlebit.splitText(pat.length);
+    var middleclone = middlebit.cloneNode(true);
+    spannode.appendChild(middleclone);
+    middlebit.parentNode.replaceChild(spannode, middlebit);
+    skip = 1;
+   }
+  }
+  else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+   for (var i = 0; i < node.childNodes.length; ++i) {
+    i += innerHighlight(node.childNodes[i], pat);
+   }
+  }
+  return skip;
+ }
+ return this.each(function() {
+  innerHighlight(this, pat.toUpperCase());
+ });
+};
+
+jQuery.fn.removeHighlight = function() {
+ return this.find("span.highlight").each(function() {
+  this.parentNode.firstChild.nodeName;
+  with (this.parentNode) {
+   replaceChild(this.firstChild, this);
+   normalize();
+  }
+ }).end();
+};
+}
+</script>
+<style>
+.highlight { background-color: yellow; display: inline !important;}
+</style>
+<script language="JavaScript">
+    $(document).ready(function() {
+        if (window.location.href.indexOf('/search/index.php') == -1) {
+                        $('input[name=sea_val]').blur(function(t){
+                if($(this).val()=='')
+                {
+                    $(this).addClass('shhint');
+                    $(this).val('');
+                }
+            });
+
+            $('input[name=sea_val]').focus(function(t){         
+                if($(this).val()=='')
+                {
+                    $(this).removeClass('shhint');
+                    $(this).val('');
+                }
+            });
+            
+            $('#seafrm').bind('submit',function(){          
+                if($('input[name=sea_val]').val()=='')
+                {
+                    $('input[name=sea_val]').removeClass('shhint');
+                    $('input[name=sea_val]').val('');
+                }       
+                return true;
+            });
+            
+            if(($('input[name=sea_val]').val()=='') || ($('input[name=sea_val]').val()==''))
+                {
+                    $('input[name=sea_val]').addClass('shhint');
+                }
+        }
+
+    });
+</script>
+
+<script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-38830918-14', 'auto'); 
+ga('send', 'pageview'); 
+
+</script> 
+<a href="#" class="scrollup scrollup_ru">top</a>
+<!-- Yandex.Metrika counter --> 
+<script type="text/javascript"> 
+(function (d, w, c) { 
+(w[c] = w[c] || []).push(function() { 
+try { 
+w.yaCounter36065415 = new Ya.Metrika({ 
+id:36065415, 
+clickmap:true, 
+trackLinks:true, 
+accurateTrackBounce:true, 
+webvisor:true 
+}); 
+} catch(e) { } 
+}); 
+
+var n = d.getElementsByTagName("script")[0], 
+s = d.createElement("script"), 
+f = function () { n.parentNode.insertBefore(s, n); }; 
+s.type = "text/javascript"; 
+s.async = true; 
+s.src = "https://mc.yandex.ru/metrika/watch.js"; 
+
+if (w.opera == "[object Opera]") { 
+d.addEventListener("DOMContentLoaded", f, false); 
+} else { f(); } 
+})(document, window, "yandex_metrika_callbacks"); 
+</script> 
+
+<!-- /Yandex.Metrika counter -->     </body>
+</html>
